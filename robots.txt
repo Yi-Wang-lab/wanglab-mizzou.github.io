@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /README
 
-Sitemap: https://wanglab-mizzou.github.io/sitemap.xml
+Sitemap: https://yi-wang-lab.github.io/sitemap.xml
