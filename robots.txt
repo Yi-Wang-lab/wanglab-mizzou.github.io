@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /README
+
+Sitemap: https://wanglab-mizzou.github.io/sitemap.xml

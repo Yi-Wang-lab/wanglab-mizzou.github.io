@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<title>Wang Lab</title>
+<rect width="64" height="64" rx="12" fill="#1f2228"/>
+<polyline points="12,19 22,46 32,25 42,46 52,19" fill="none" stroke="#F1B82D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

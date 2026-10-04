@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 如果你的网址不是 https://wanglab-mizzou.github.io/ ，把下面 6 个网址开头换成你的网址（见 README） -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://wanglab-mizzou.github.io/</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>https://wanglab-mizzou.github.io/people.html</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>https://wanglab-mizzou.github.io/research.html</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>https://wanglab-mizzou.github.io/publications.html</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>https://wanglab-mizzou.github.io/photos.html</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>https://wanglab-mizzou.github.io/contact.html</loc><lastmod>2026-10-02</lastmod></url>
+</urlset>

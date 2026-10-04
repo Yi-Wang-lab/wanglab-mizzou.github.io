@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" preserveAspectRatio="xMidYMid slice">
+<title>Photo placeholder</title>
+<rect width="400" height="400" fill="#d6d4cd"/>
+<circle cx="200" cy="162" r="70" fill="#efede7"/>
+<path d="M68 400 C68 300 130 252 200 252 C270 252 332 300 332 400 Z" fill="#efede7"/>
+</svg>

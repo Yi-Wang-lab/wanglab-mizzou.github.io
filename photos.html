@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- ✏️ title = 浏览器标签和谷歌搜索结果里的标题；description = 谷歌搜索结果下面那行介绍 -->
+<title>Photos | Wang Lab, University of Missouri</title>
+<meta name="description" content="Photos from lab life, conferences, and outreach at the Wang Lab, University of Missouri.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Wang Lab, University of Missouri">
+<meta property="og:title" content="Photos | Wang Lab, University of Missouri">
+<meta property="og:description" content="Photos from lab life, conferences, and outreach at the Wang Lab, University of Missouri.">
+<link rel="icon" href="images/logo-mark.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&amp;display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ 顶部导航（每个页面都有一份，一般不用改） ============ -->
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <img src="images/logo-mark.svg" alt="" width="42" height="42">
+      <span><span class="brand-name">Wang Lab</span><span class="brand-sub">University of Missouri</span></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      Menu
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="photos.html" aria-current="page">Photos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="band">
+  <div class="container page-head">
+    <h1>Photos</h1>
+    <p class="lead">Lab life, conferences, and outreach.</p>
+  </div>
+</section>
+
+<!-- =====================================================================
+     ✏️ 相册：每个活动是一整块 <article class="photo-entry"> …… </article>，最新的放最上面
+     · 加活动：复制一整块，改日期（<h2>）、说明文字（<p>）和图片文件名
+     · 照片先上传到 images/photos/ 文件夹（文件名用英文小写，例如 group-2026.jpg）
+     · 一个活动放 1–3 张图都行：每张图是一行 <img src="……" alt="……">
+     · 下面两条是示例，换成你们自己的照片和说明
+     ===================================================================== -->
+<section class="section">
+  <div class="container">
+
+    <article class="photo-entry">
+      <h2>2026</h2>
+      <div>
+        <p>Example entry. Replace this caption and the two photos with your own, for example a lab group photo.</p>
+        <div class="photo-row">
+          <img src="images/photos/placeholder.svg" alt="Photo placeholder" width="1200" height="800" loading="lazy">
+          <img src="images/photos/placeholder.svg" alt="Photo placeholder" width="1200" height="800" loading="lazy">
+        </div>
+      </div>
+    </article>
+
+    <article class="photo-entry">
+      <h2>2025</h2>
+      <div>
+        <p>Example entry. A conference trip, a lab dinner, or an outreach event works well here.</p>
+        <div class="photo-row">
+          <img src="images/photos/placeholder.svg" alt="Photo placeholder" width="1200" height="800" loading="lazy">
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+</main>
+
+<!-- ============ 页脚（每个页面都有一份，一般不用改） ============ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="images/logo-mark.svg" alt="" width="40" height="40">
+      <p><strong>Wang Lab</strong><br>Department of Industrial and Systems Engineering<br>University of Missouri</p>
+    </div>
+    <div>
+      <h2>Visit</h2>
+      <p>E3437C Lafferre Hall<br>University of Missouri<br>Columbia, MO 65211</p>
+    </div>
+    <div>
+      <h2>Contact</h2>
+      <p><a href="mailto:yiwang@missouri.edu">yiwang@missouri.edu</a><br>573-882-2340</p>
+    </div>
+    <nav aria-label="Footer">
+      <h2>Explore</h2>
+      <ul>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="contact.html#join">Join the lab</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span data-year>2026</span> Wang Lab, University of Missouri</span>
+    <a href="#top">Back to top</a>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

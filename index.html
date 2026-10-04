@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- ✏️ title = 浏览器标签和谷歌搜索结果里的标题；description = 谷歌搜索结果下面那行介绍 -->
+<title>Wang Lab | Yi Wang, University of Missouri</title>
+<meta name="description" content="The Wang Lab at the University of Missouri, led by Dr. Yi Wang, develops multifield-assisted 3D printing, micro/nanomanufacturing, flexible bioelectronics and brain–machine interfaces, and smart manufacturing with mixed reality and digital twins.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Wang Lab, University of Missouri">
+<meta property="og:title" content="Wang Lab | Yi Wang, University of Missouri">
+<meta property="og:description" content="The Wang Lab at the University of Missouri, led by Dr. Yi Wang, develops multifield-assisted 3D printing, micro/nanomanufacturing, flexible bioelectronics and brain–machine interfaces, and smart manufacturing with mixed reality and digital twins.">
+<link rel="icon" href="images/logo-mark.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&amp;display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add("js");</script>
+<!-- Google Search Console 验证代码贴在这一行下面（见 README 第 2 步） -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchOrganization",
+  "name": "Wang Lab",
+  "description": "Research lab led by Dr. Yi Wang in the Department of Industrial and Systems Engineering, University of Missouri: multifield-assisted 3D printing, micro/nanomanufacturing, bioelectronics, brain-machine interfaces, and smart manufacturing.",
+  "email": "yiwang@missouri.edu",
+  "telephone": "+1-573-882-2340",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "E3437C Lafferre Hall",
+    "addressLocality": "Columbia",
+    "addressRegion": "MO",
+    "postalCode": "65211",
+    "addressCountry": "US"
+  },
+  "parentOrganization": {
+    "@type": "CollegeOrUniversity",
+    "name": "University of Missouri"
+  },
+  "member": {
+    "@type": "Person",
+    "name": "Yi Wang",
+    "jobTitle": "Assistant Professor of Industrial and Systems Engineering",
+    "email": "yiwang@missouri.edu",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Missouri"
+    },
+    "sameAs": [
+      "https://scholar.google.com/citations?user=VTaAdZcAAAAJ"
+    ]
+  }
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ 顶部导航（每个页面都有一份，一般不用改） ============ -->
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <img src="images/logo-mark.svg" alt="" width="42" height="42">
+      <span><span class="brand-name">Wang Lab</span><span class="brand-sub">University of Missouri</span></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      Menu
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="photos.html">Photos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<!-- =====================================================================
+     ✏️ 首页轮播图（共 3 张）
+     · 改文字：直接改每张里的 <h2>（标题）和 <p>（一句话介绍）
+     · 换图片：把图片上传到 images 文件夹，再把 src="images/……" 改成你的文件名
+     · 按钮 "Explore this research" 会跳到研究页（research.html）对应的部分
+     ===================================================================== -->
+<section class="hero" aria-label="Research highlights">
+  <div class="carousel" data-carousel aria-roledescription="carousel">
+    <div class="slides">
+
+      <article class="slide is-active" aria-roledescription="slide" aria-label="1 of 3">
+        <div class="slide-media">
+          <img src="images/research-printing.svg" alt="Illustration of an ultrasonic printhead writing a fine electrohydrodynamic jet onto a substrate with printed circuits and micro-pillars" width="1600" height="800">
+        </div>
+        <div class="container slide-content">
+          <h2>Multifield-assisted 3D printing</h2>
+          <p>Ultrasonic vibration and electric fields let us print high-resolution functional structures for terrestrial and in-space manufacturing.</p>
+          <a class="btn btn-gold" href="research.html#printing">Explore this research</a>
+        </div>
+      </article>
+
+      <article class="slide" aria-roledescription="slide" aria-label="2 of 3">
+        <div class="slide-media">
+          <img src="images/research-bioelectronics.svg" alt="Illustration of a flexible neural probe with electrode sites recording signals from cortical neurons" width="1600" height="800">
+        </div>
+        <div class="container slide-content">
+          <h2>Bioelectronics and brain–machine interfaces</h2>
+          <p>Flexible neural probes, biosensors, and electrode arrays that record from and stimulate the nervous system.</p>
+          <a class="btn btn-gold" href="research.html#bioelectronics">Explore this research</a>
+        </div>
+      </article>
+
+      <article class="slide" aria-roledescription="slide" aria-label="3 of 3">
+        <div class="slide-media">
+          <img src="images/research-smart-manufacturing.svg" alt="Illustration of a 3D printer linked to its mixed-reality digital twin and live data dashboards" width="1600" height="800">
+        </div>
+        <div class="container slide-content">
+          <h2>Smart manufacturing and digital twins</h2>
+          <p>Mixed reality, IIoT, and AI that connect people, machines, and data on the factory floor.</p>
+          <a class="btn btn-gold" href="research.html#smart">Explore this research</a>
+        </div>
+      </article>
+
+    </div>
+    <div class="carousel-controls">
+      <div class="container">
+        <button class="carousel-btn" type="button" data-prev aria-label="Previous slide">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="carousel-dots"></div>
+        <button class="carousel-btn" type="button" data-next aria-label="Next slide">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button class="carousel-btn" type="button" data-toggle aria-label="Pause slideshow">
+          <svg class="icon-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 5v14M15.5 5v14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+          <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     ✏️ 实验室简介（左边）+ 招生卡片（右边黄色方块）
+     ===================================================================== -->
+<section class="section">
+  <div class="container intro">
+    <div class="intro-text">
+      <h1>Advanced manufacturing for medicine and smart industry</h1>
+      <p class="lead">The Wang Lab in the Department of Industrial and Systems Engineering at the University of Missouri develops advanced micro/nanomanufacturing processes and uses them to build biomedical devices and intelligent manufacturing systems.</p>
+      <p>Our work combines ultrasonic vibration, electric fields, and lasers with 3D printing to fabricate high-precision functional structures, from flexible circuits and laser-induced graphene sensors to neural probes for brain–machine interfaces. We also develop human-centered smart manufacturing systems that connect machines, data, and people through mixed reality, the industrial Internet of Things (IIoT), AI, and digital twins.</p>
+      <p>We collaborate with clinicians, neuroscientists, and industry partners to move these technologies toward real use. Our research is supported by the National Science Foundation, including an NSF CAREER Award, and by state, clinical, industry, and university sponsors.</p>
+    </div>
+    <aside class="join-card" aria-labelledby="join-title">
+      <h2 id="join-title">Join the lab</h2>
+      <p>We welcome motivated Ph.D., M.S., and undergraduate students who enjoy building things, whether that is a printhead, a sensor, or software for a smart factory.</p>
+      <p>Email Dr. Wang at <a href="mailto:yiwang@missouri.edu">yiwang@missouri.edu</a> with your CV and research interests.</p>
+      <a class="btn btn-dark" href="contact.html#join">How to join</a>
+    </aside>
+  </div>
+</section>
+
+<!-- =====================================================================
+     ✏️ 新闻 News（最新的放最上面）
+     · 加一条：复制任意一行 <li>……</li>，粘贴到对应年份的最上面，再改月份和内容
+     · 不确定月份：<span class="news-date"></span> 中间留空就行
+     · 新的一年：复制一整块 <div class="news-group"> …… </div>，改年份，放到最上面
+     ===================================================================== -->
+<section class="section" id="news" aria-labelledby="news-title">
+  <div class="container">
+    <h2 class="section-title" id="news-title">News</h2>
+
+    <div class="news-group">
+      <h3>2026</h3>
+      <ul class="news-list">
+        <li><span class="news-date">Sep</span> We started a new industry-sponsored project with <strong>Sentio Biosciences</strong> to develop an automated loss-in-weight twin-screw powder feeding system.</li>
+        <li><span class="news-date">Apr</span> Dr. Wang received the <strong>NSF CAREER Award</strong>. The five-year project studies ultrasonic vibration-enhanced anti-gravity electrohydrodynamic (EHD) printing for high-precision functional structures.</li>
+        <li><span class="news-date">Jan</span> A new project funded by the <strong>American Association for Hand Surgery</strong> will develop a high-resolution electrode array to detect sensory nerve injury during surgery, together with our clinical collaborators.</li>
+        <li><span class="news-date"></span> New papers in <i>Materials Horizons</i>, on in-situ additive manufacturing of laser-induced graphene embedded in PEEK, and in <i>Virtual and Physical Prototyping</i>, on ultrasonic-assisted screw-extrusion 3D printing.</li>
+        <li><span class="news-date"></span> Dr. Wang co-organized the Bio-Manufacturing Symposium at ASME MSEC 2026.</li>
+      </ul>
+    </div>
+
+    <div class="news-group">
+      <h3>2025</h3>
+      <ul class="news-list">
+        <li><span class="news-date">Apr</span> We filed a U.S. non-provisional patent application for an ultrasonic vibration-assisted printhead (No. 19/195,123).</li>
+        <li><span class="news-date"></span> Dr. Wang was named the <strong>Spring 2025 Outstanding Professor</strong> in Industrial and Systems Engineering.</li>
+        <li><span class="news-date"></span> Three best paper awards: the <strong>FAIM 2025</strong> Best Paper Award, the <strong>ACTG 2025</strong> Best Student Paper Award, and the <strong>DHM 2025</strong> Best Paper Award at HCI International for a collaborative study of augmented reality–based biomechanics education.</li>
+        <li><span class="news-date"></span> Our dual-gate organic electrochemical transistors on laser-scribed graphene, which detect dopamine and glutamate, were published in <i>Advanced Materials Technologies</i>.</li>
+      </ul>
+    </div>
+
+    <div class="news-group">
+      <h3>2024</h3>
+      <ul class="news-list">
+        <li><span class="news-date">Sep</span> Support from the <strong>MU Coulter Biomedical Accelerator</strong> to develop an implantable electronic nerve stimulator that accelerates and monitors nerve healing, with clinical collaborators at MU.</li>
+        <li><span class="news-date">Jul</span> A new <strong>NSF</strong> project with NC State University and the University of North Carolina will develop flexible, fMRI-compatible neural probes with organic semiconductor-based multimodal sensors for closed-loop neuromodulation.</li>
+        <li><span class="news-date"></span> Dr. Wang received the Bloss Faculty Enhancement Grant Award from the University of Missouri.</li>
+        <li><span class="news-date"></span> Dr. Wang co-chaired the Smart Manufacturing and Cyber-Physical Systems track at SME NAMRC 52.</li>
+        <li><span class="news-date"></span> Two papers in <i>Manufacturing Letters</i>: ultrasonic vibration-assisted high-resolution EHD printing, and a human-centered platform for holographic control of 3D printers.</li>
+      </ul>
+    </div>
+
+    <div class="news-group">
+      <h3>2023</h3>
+      <ul class="news-list">
+        <li><span class="news-date">Jul</span> Mizzou began building an <strong>Industry 4.0 laboratory</strong> and certification program with support from the MOExcels Workforce Initiative of the Missouri Department of Higher Education and Workforce Development. Dr. Wang is a Co-PI.</li>
+        <li><span class="news-date">Mar</span> A College of Engineering Research Seed Grant will support 3D customizable, multifunctional neural microelectrode arrays made by EHD 3D printing.</li>
+      </ul>
+    </div>
+
+    <div class="news-group">
+      <h3>2022</h3>
+      <ul class="news-list">
+        <li><span class="news-date">Dec</span> A University of Missouri Research Council Grant will support a customizable, multifunctional neural probe for individualized neuroscience studies and precision medicine.</li>
+        <li><span class="news-date">Mar</span> Dr. Wang joined the Department of Industrial and Systems Engineering at the University of Missouri as an Assistant Professor, and the Wang Lab was founded.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+</main>
+
+<!-- ============ 页脚（每个页面都有一份，一般不用改） ============ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="images/logo-mark.svg" alt="" width="40" height="40">
+      <p><strong>Wang Lab</strong><br>Department of Industrial and Systems Engineering<br>University of Missouri</p>
+    </div>
+    <div>
+      <h2>Visit</h2>
+      <p>E3437C Lafferre Hall<br>University of Missouri<br>Columbia, MO 65211</p>
+    </div>
+    <div>
+      <h2>Contact</h2>
+      <p><a href="mailto:yiwang@missouri.edu">yiwang@missouri.edu</a><br>573-882-2340</p>
+    </div>
+    <nav aria-label="Footer">
+      <h2>Explore</h2>
+      <ul>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="contact.html#join">Join the lab</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span data-year>2026</span> Wang Lab, University of Missouri</span>
+    <a href="#top">Back to top</a>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

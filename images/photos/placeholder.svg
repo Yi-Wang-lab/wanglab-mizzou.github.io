@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" preserveAspectRatio="xMidYMid slice">
+<title>Photo placeholder</title>
+<rect width="1200" height="800" fill="#dedcd5"/>
+<g fill="none" stroke="#b4b0a5" stroke-width="12" stroke-linejoin="round">
+<rect x="480" y="330" width="240" height="160" rx="18"/>
+<path d="M545 330 L565 296 L635 296 L655 330"/>
+<circle cx="600" cy="410" r="46"/>
+</g>
+</svg>
